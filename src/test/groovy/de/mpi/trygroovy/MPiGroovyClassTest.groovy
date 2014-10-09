@@ -9,5 +9,9 @@ class MPiGroovyClassTest extends GroovyTestCase {
     void testPrintText() {
         MPiGroovyClass.printText();
         MainApp.forTest();
+
+        assertEquals(MainApp.count +1, MainApp.count);
+        println(MainApp.count + " erwarte 5 (verivy)");
+        println(MainApp.count + " erwarte 5 (single)");
     }
 }
