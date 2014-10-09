@@ -8,10 +8,10 @@ import de.mpi.tryouts.MainApp
 class MPiGroovyClassTest extends GroovyTestCase {
     void testPrintText() {
         MPiGroovyClass.printText();
-        MainApp.forTest();
+
 
         assertEquals(MainApp.count +1, MainApp.count);
-        println(MainApp.count + " erwarte 5 (verivy)");
-        println(MainApp.count + " erwarte 5 (single)");
+        println(MainApp.count + " erwarte 4 (verivy)");
+        println(MainApp.count + " erwarte 4 (single)");
     }
 }
